@@ -1,0 +1,68 @@
+body {
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  color: hsl(229, 8%, 60%);
+  text-align: left;
+}
+
+section {
+  text-align: center;
+  width: 550px;
+  margin: 0 auto;
+}
+
+.faq {
+  margin-top: 60px;
+}
+
+.faq #faq-list {
+  margin: 0 auto;
+  padding: 0;
+  
+  list-style: none;
+}
+
+.faq .faq-list-item {
+  margin: 10px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+}
+
+.faq .faq-list-item h3 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.faq .faq-list-item h3:hover {
+  color: hsl(231, 69%, 60%);
+}
+
+.faq .faq-list-item span {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  color: #ccc;
+  font-size: 13px;
+}
+
+.faq .faq-content {
+  margin-top:50px;
+  font-size: 12px;
+  padding: 5px 0px;
+  margin-bottom: 15px;
+  display: none;
+  background-color:blue;
+  width:700px;
+  text-align:center;
+  margin-left:-100px;
+}
+
+.faq .faq-content svg {
+  max-width: 100%;
+}
